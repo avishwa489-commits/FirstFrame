@@ -3,8 +3,13 @@ package abc;
 import org.testng.annotations.Test;
 
 public class RealExecution_Test {
-	public static void main(String[] args) {
-		System.out.println("New classes added by Tester 2");
-	}
+@Test
+public void newMethod_1() {
+	System.out.println("new method 1 executed");
+}
+@Test
+public void newMethod_2() {
+	System.out.println("new method 2 executed");
+}
 
 }
